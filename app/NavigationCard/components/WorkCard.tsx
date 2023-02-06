@@ -18,7 +18,7 @@ const WorkCard = () => {
 
   return (
     <Card
-      className="w-full h-full !bg-gray-100  overflow-hidden hover:scale-95 transition-all duration-200 p-10"
+      className="w-full h-full !bg-gray-100  overflow-hidden hover:scale-95 transition-all duration-200 p-5 md:p-10 flex flex-col justify-center"
       onMouseEnter={handleMouseEvent}
       onMouseLeave={handleMouseEvent}
     >
@@ -33,7 +33,7 @@ const WorkCard = () => {
           </p>
         </div>
         <div className="relative z-10 flex flex-col justify-end h-full">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col-reverse items-center justify-between gap-5 text-xl md:gap-0 md:flex-row md:text-base">
             <p className="font-semibold ">Projects</p>
             <FontAwesomeIcon icon={faDiagramProject} className="px-5 " />
           </div>

@@ -18,7 +18,7 @@ const ContactCard = () => {
 
   return (
     <Card
-      className="w-full h-full !bg-lime-600 overflow-hidden hover:scale-95 transition-all duration-200 p-10"
+      className="w-full h-full !bg-lime-600 overflow-hidden hover:scale-95 transition-all duration-200 p-10 flex flex-col items-center justify-center"
       onMouseEnter={handleMouseEvent}
       onMouseLeave={handleMouseEvent}
     >
@@ -33,7 +33,7 @@ const ContactCard = () => {
           </p>
         </div>
         <div className="relative z-10 flex flex-col justify-end h-full">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col-reverse items-center justify-between gap-5 text-xl md:gap-0 md:flex-row">
             <p className="font-semibold ">Contact Me</p>
             <FontAwesomeIcon icon={faPaperPlane} className="px-5 " />
           </div>

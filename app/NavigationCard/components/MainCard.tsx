@@ -21,7 +21,7 @@ const MainCard = () => {
 
   return (
     <Card
-      className="w-full h-full !bg-blue-600 overflow-hidden hover:scale-[.98] transition-all duration-200"
+      className="w-full md:h-full h-[500px] !bg-blue-600 overflow-hidden hover:scale-[.98] transition-all duration-200"
       onMouseEnter={handleMouseEvent}
       onMouseLeave={handleMouseEvent}
     >

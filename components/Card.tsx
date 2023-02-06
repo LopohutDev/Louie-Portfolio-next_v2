@@ -12,7 +12,7 @@ interface ComponentProps
 const Card: React.FC<ComponentProps> = ({ children, className, ...rest }) => {
   return (
     <div
-      className={`bg-white min-h-[170px] w-full text-black p-14 rounded-[50px] font-semibold ${
+      className={`bg-white min-h-[170px] w-full text-black p-10 md:p-14 rounded-[50px] font-semibold ${
         className && className
       }`}
       {...rest}

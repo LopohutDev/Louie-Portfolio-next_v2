@@ -10,11 +10,11 @@ const AboutCard = () => {
   return (
     <div className="mx-5 my-2" id="About">
       <Card className="h-screen overflow-hidden !text-green-400 !bg-gray-800">
-        <p className="animate-[infiniteTextScroll_20s_linear_infinite] text-9xl  w-[2000px]">
+        <p className="animate-[infiniteTextScroll_20s_linear_infinite] text-5xl md:text-9xl  w-[2000px]">
           Who are Louie Jay Sarraga?
         </p>
-        <div className="flex gap-10 mt-20">
-          <p className="flex-1 text-3xl font-normal">
+        <div className="flex flex-col gap-10 mt-20 md:flex-row">
+          <p className="flex-1 text-xl font-normal md:text-3xl">
             I am a freelance full stack developer, skillful in using HTML,
             tailwindcss, React Js, Next Js, Nest Js, React Redux, Prisma,
             PosgreSql and React Router. I am also skillful in using Git Bash

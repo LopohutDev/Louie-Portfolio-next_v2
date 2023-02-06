@@ -18,7 +18,7 @@ const AboutCard = () => {
 
   return (
     <Card
-      className="w-full h-full !bg-gray-800 overflow-hidden hover:scale-95 transition-all duration-200 p-10 !text-white"
+      className="w-full h-full !bg-gray-800 overflow-hidden hover:scale-95 transition-all duration-200 p-5 md:p-10 !text-white flex flex-col justify-center"
       onMouseEnter={handleMouseEvent}
       onMouseLeave={handleMouseEvent}
     >
@@ -32,8 +32,8 @@ const AboutCard = () => {
             Learn More About Me .
           </p>
         </div>
-        <div className="relative z-10 flex flex-col justify-end h-full">
-          <div className="flex items-center justify-between">
+        <div className="relative z-10 flex flex-col justify-center h-full md:justify-end">
+          <div className="flex flex-col-reverse items-center justify-between gap-5 text-xl md:gap-0 md:flex-row md:text-base">
             <p className="font-semibold ">About</p>
             <FontAwesomeIcon icon={faAddressCard} className="px-5 " />
           </div>

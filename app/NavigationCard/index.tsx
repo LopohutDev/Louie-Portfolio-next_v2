@@ -10,7 +10,7 @@ import WorkCard from "./components/WorkCard";
 const NavigationCard = () => {
   return (
     <div className="py-5 mx-5">
-      <div className="flex gap-2">
+      <div className="flex flex-col gap-2 md:flex-row">
         <a href="#whatIdo" className="flex-1 ">
           <MainCard />
         </a>
